@@ -1,0 +1,520 @@
+@charset "utf-8";
+#headline {
+	
+	height:300px;
+	width:100%;
+	min-width:1263px;
+	background: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../img/headline.jpg) no-repeat center;
+
+}
+
+.headline {
+	width:1263px;
+	height:300px;
+	margin:0 auto;
+
+}
+hgroup {
+	padding:100px 0 0 150px;
+}
+.headline h2{
+	font-size:45px;
+	color:#eee;
+	letter-spacing: 1px;
+}
+.headline p{
+	font-size:20px;
+	color:#eee;
+	letter-spacing: 1px;
+}
+#container {
+	width:1263px;
+	margin:30px auto;
+    overflow: hidden;
+
+}
+.sidebar {
+	float:right;
+	width:340px;
+	color:#666;
+
+}
+.sidebox {
+	height:400px;
+	text-align: center;
+	margin-bottom:20px;
+
+    border:1px solid #ccc;
+}
+.sidebox h3{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	height:48px;
+	line-height:48px;
+	background: #fafafa;
+	text-align:left;
+	text-indent: 20px;
+	margin-bottom: 5px;
+}
+
+.sidebox li{
+	display: inline-block;
+	height:45px;
+	width:100px;
+	margin:2px;
+	line-height:45px;
+	color:#fff; 
+	background: #eee;
+
+}
+.tag li a {
+	color:#999;
+}
+.tag li a:hover {
+	background: #458b00;
+	display:block;
+	color:#fff;
+
+}
+.sidebox .figure{
+	width:340px;
+	text-align: center;
+}
+ .figure figure{
+	display: inline-block;
+	padding:5px;
+}
+.figure figcaption {
+	color:#666;
+	
+}
+.box {
+	padding:10px 0 10px 0;
+}
+.box a {
+	width:150px;
+	height:45px;
+	line-height: 45px;
+	text-indent: 10px;
+	font-size: 16px;
+	display: inline-block;
+
+
+	color:#999;
+	margin:2px ;
+}
+.box a.trea1  {
+
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+
+}
+.box a.trea2 {
+
+	background:#eee url(../img/trea2.png) no-repeat 10px center;
+
+}
+.box a.trea3  {
+
+	background:#eee url(../img/trea3.png) no-repeat  10px center;
+
+}
+.box a.trea4  {
+
+	background: #eee url(../img/trea4.png) no-repeat  10px center;
+
+}
+.treasure {
+	height:170px;
+}
+
+.list {
+	float:left;
+	width:900px;
+
+}
+.infos {
+	width:900px;
+	height:50px;
+	background: #eee;
+}
+.infos_left{
+	float:left;
+	line-height: 48px;
+	text-align: center;
+
+}
+.infos_left li {
+	display: inline-block;
+	width:150px;
+	height:48px;
+}
+.infos_left li a {
+	display: block;
+	color: #666;
+	cursor: pointer;
+
+}
+.infos_left li:first-child {
+	position: relative;
+	background: #fff;
+	border-top:2px solid #458b00;
+	left:1px;
+
+}
+.infos_right{
+	width:300px;
+	height:50px;
+	line-height: 50px;
+	float:right;
+	text-align: center;
+	margin-right:-30px;
+}
+.infos_right li {
+	display: inline-block;
+	width:60px;
+	
+}
+.infos_right li a.selected,
+.infos_right li a:hover{
+	background: #458b00;
+	color:#fff;
+}
+.infos_right li a {
+	color:#666;
+	width:60px;
+	padding:5px;
+	font-size:14px;	
+}
+.tour {
+	width:898px;
+	height:231px;
+	margin-top:20px;
+	position: relative;
+	border:1px solid #ccc;
+	color:#666;
+}
+.tour img {
+	float:left;
+}
+.tour .description {
+	float:right;
+	width:498px;
+	height:200px;
+	padding:10px 0 0 20px;
+
+}
+.description h3 {
+	font-size: 24px;
+	width:300px;
+
+	font-weight: normal;
+
+}
+.description p {
+	font-size: 14px;
+	line-height: 2;
+	width:300px;
+	margin-top:10px;
+}
+.description ol li  {
+	font-size: 16px;	
+	width:300px;
+	margin-top:10px;
+	height:20px;
+	line-height: 20px;
+}
+.description ol li mark  {
+color:#458b00;
+border:1px solid #458b00;
+padding:0 5px;
+background: #fff;
+border-radius: 5px;
+}
+.description .type {
+	position:absolute;
+	left:0;
+	top:0;
+	width:80px;
+	height:20px;
+	background: #59b200;
+	line-height: 20px;
+	text-align: center;
+	font-size:14px;
+	color:#fff;
+
+}
+.description .disc{
+	position: absolute;
+	top:0;
+	right:0;
+	width:52px;
+	height:52px;
+	background: url(../img/disc.png) no-repeat;
+}
+.description .disc span{
+	display: block;
+	width:52px;
+	height:52px;
+	transform: rotate(45deg);
+	padding: 5px 0 0 0px;
+	color: #ff7a4d;
+	font-size: 14px;
+	text-indent: 7px;
+}
+.description .buy {
+	position: absolute;
+	top:50px;
+	right:20px;
+
+}
+.buy .price {
+	color:#f60;
+	font-size: 20px;
+}
+.buy .price  strong {
+	color:#f60;
+	font-size: 36px;
+}
+.buy .price  s {
+	color:#999;
+	font-size:19px;
+
+}
+.buy .reserve a {
+	display: block;
+	width:150px;
+	height:50px;
+	background: #f80;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	color:#fff;
+	font-size:20px;
+	margin-top:10px;
+}
+.description .footer {
+	width:498px;
+	height:28px;
+	line-height: 28px;
+	text-indent: 20px;
+	position:absolute;
+	bottom:2px;
+	letter-spacing: 1px;
+	background-color: #fafafa;
+
+}
+.description .footer time {	
+	color:#458b00;
+}
+.list .more {
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+	background: #fafafa;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	color:#666;
+	margin-top:20px;
+}
+.ticket {
+	font-size:20px;
+	color:#666;
+}
+.ticket form h2 {
+	height:50px;
+	line-height: 50px;
+	font-size:40px;
+	font-weight: normal;
+	padding:5px 0 10px 0;
+	border-bottom:1px dashed #999;
+}
+.ticket form .type{
+	margin:20px 0 10px 0;
+
+}
+.ticket form .type span {
+	display: block;
+	
+}
+.ticket form .type strong {
+	padding:0 10px 0 10px;
+	margin:0 20px 0 10px;
+	color:#fff;
+	display: inline-block;
+	height:30px;
+	background: #458b00;
+	line-height:30px;
+	text-align: center;
+	border-radius: 4px;
+	
+}
+.form input {
+	width:250px;
+	height:30px;
+	border:1px solid #ccc;
+	font-size:18px;
+	margin:0 0 0 12px;
+	padding:5px;
+	border-radius: 5px;
+	outline: none;
+}
+.form {
+	line-height: 3;
+}
+.ticket form .left {
+	display:inline-block;
+	width:43%;
+
+}
+
+.ticket form .center {
+	display:inline-block;
+	width:43%;
+
+}
+.ticket form .right {
+	display:inline-block;
+	width:9%;
+
+}
+.ticket form .right .submit {
+	height:90px;
+	width:90px;
+	text-align: center;
+	line-height: 90px;
+	background: #f60;
+	border:0;
+	position:relative;
+	top: -25px;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+
+
+}
+.list_news {
+	color:#666;
+}
+.list_news h2{
+	height:50px;
+	line-height: 50px;
+	font-size:40px;
+	font-weight: normal;
+	padding:5px 0 10px 0;
+	border-bottom:1px dashed #999;
+}
+.list_news ul {
+	margin:10px 0 20px 0;
+}
+.list_news ul li {
+	display: inline-block;
+	width:50px;
+	height:30px;
+	line-height: 30px;
+	
+}
+.list_news ul li:first-child {
+	width:120px;
+	height:30px;
+}
+.list_news ul li:nth-child(2) a {
+	margin-left:-5px;
+	background: #458b00;
+	color:#fff;
+	border-radius: 3px;
+
+}
+.list_news ul li a {
+	display: block;
+	padding:0 5px 0 5px;
+	color:#666;
+
+}
+.list_news table {
+	border:1px solid #ccc;
+	border-collapse: collapse;
+	width:100%;
+	text-align: center;
+
+}
+.list_news table tr:nth-child(2n) {
+	background: #fafafa;
+
+}
+.list_news table tr:hover{
+	background: #eee;
+
+}
+.list_news table th,.list_news table td {
+	border-bottom:1px solid #ccc;
+	height:50px;
+
+}
+.list_news table td.price{
+	color:#f60;
+}
+.list_news table td .reserve {
+	display: inline-block;
+	height:35px;
+	width:80px;
+	text-align: center;
+	line-height: 35px;
+	background: #f60;
+	border-radius:4px;
+	color:#fff;
+
+}
+.list_news table td .ticket_more {
+	color:#666;
+}
+.list{
+	color:#666;
+}
+.list h2{
+	font-size: 45px;
+	margin-bottom:10px;
+	color:#666;
+	font-weight: normal;
+	border-bottom: 1px dashed #ccc;
+	padding:0 0 15px 0;
+}
+.scenery figure {
+	padding:4px;
+	text-align: center;
+	width:435px;
+	border:1px solid #ccc;
+	display: inline-block;
+	margin: 10px 3px 15px 0 ;
+	border-radius: 5px;
+	letter-spacing: 1px;
+
+}
+.scenery figure img{
+	vertical-align:middle;
+}
+
+.scenery figcaption {
+	line-height: 1.5;
+	padding:10px  0 10px 0;
+	font-size: 16px;
+}
+.about p{
+	text-indent:2em;
+	line-height: 2;
+	margin:20px 0;
+}
+.about .address{
+	margin:60px 0 0 0;
+}
+.about .address address{
+	font-style: normal;
+	line-height: 1.5;
+	font-size:18px;
+	margin-top:20px;
+}

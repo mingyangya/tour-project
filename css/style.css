@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+
+.search {
+	width:100%;
+	min-width:1263px;
+	background: url(../img/search.jpg) no-repeat center;
+	height:600px;
+	position: relative;
+}
+.search .center {
+	width:600px;
+	height:50px;
+	background: #000;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-25px 0px 0px -300px;
+	border-radius:10px; 
+	opacity: 0.6;
+}
+.input {
+	width:410px;
+	height:32px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-20px 0px 0px -296px;
+	border-radius:10px;
+	background: #eee;
+	outline: none;
+	padding:4px;
+	font-size: 16px;
+	font-weight: bolder;
+	color:#666;
+}
+.button {
+	width: 140px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0px 0px 140px;
+    border-radius: 10px;
+    background: #eee;
+    line-height: 40px;
+    text-align: center;
+    color:#666;
+    font-weight: bolder;
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+.tour {
+	width:1263px;
+/*	background: #000;*/
+	height:1150px;
+	color:#666;
+	margin:20px auto 0 auto;
+	padding-top:20px;
+}
+.news {
+	text-align: center;
+}
+.tour h2{
+	font-size: 45px;
+	margin-bottom:10px;
+}
+.news p{
+	margin-bottom: 10px;
+	margin-top:20px;
+
+}
+.tour figure {
+	position: relative;
+	padding:4px;
+	text-align: center;
+	width:380px;
+	border:1px solid #ccc;
+	display: inline-block;
+	margin:12px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+
+
+}
+.tour figure img{
+	vertical-align:middle;
+}
+.tour .title {
+	font-weight: normal;
+    color:#333;
+}
+.tour figcaption {
+	text-align: left;
+	line-height: 1.5;
+}
+.sat{
+	font-weight: normal;
+	float:right;
+	font-style: normal;
+	margin:6px;
+	color:#999;
+	font-size:13px;
+}
+.price {
+	color:#f60;
+	font-size: 20px;
+
+}
+.type {
+	position:absolute;
+	left:4px;
+	top:4px;
+	width:80px;
+	height:20px;
+	background: #59b200;
+	line-height: 20px;
+	text-align: center;
+	font-size:14px;
+	color:#fff;
+
+}
