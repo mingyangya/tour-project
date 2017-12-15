@@ -1,0 +1,544 @@
+@charset "utf-8";
+html {
+    font-size: 625%;
+}
+
+body,
+ul,
+ol,
+li,
+h2,
+h3,
+h4,
+p,
+hr,
+figure,
+hgroup {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif;
+    font-size: 0.16em;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*div,figure,figcaption {
+	box-sizing: border-box;
+}*/
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+header {
+    width: 100%;
+    height: 0.7rem;
+    background: #333;
+    /*   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);*/
+    line-height: 0.7rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+nav ul {
+    line-height: 0.7rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    width: calc(100%/4);
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+}
+
+nav ul li a:hover,
+.active a {
+    list-style: none;
+    display: block;
+    background: #000;
+}
+
+.adver {
+    max-width: 6.4rem;
+    margin: 0 auto;
+    padding: .7rem 0 0 0;
+}
+
+.adver img {
+    max-width: 100%;
+    display: block;
+}
+
+.search {
+
+    max-width: 6.4rem;
+    height: .40rem;
+    margin: 0 auto;
+    position: relative;
+    background: #ddd;
+    padding: 0.03rem 0 0 0;
+}
+
+.input {
+    display: block;
+    width: 95%;
+    height: 0.27rem;
+    background: #fff;
+    outline: none;
+    font-size: 0.16rem;
+    color: #666;
+    border-radius: .04rem;
+    margin: 0 auto;
+    padding: 0.05rem;
+    border: 0;
+}
+
+.button {
+    width: .6rem;
+    height: .38rem;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 0.04rem;
+    position: absolute;
+    right: 1%;
+    top: 0.02rem;
+    background: #eee;
+    text-align: center;
+    line-height: .38rem;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.7rem;
+    background: #222;
+    clear: both;
+    font-size: 0.12rem;
+    color: #fff;
+}
+
+.top {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    max-width: 6.4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top ul li {
+    width: 33%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    float: left;
+}
+
+.top ul li a {
+    color: #fff;
+}
+
+.bottom {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.25rem;
+}
+
+#tour {
+    max-width: 6.4rem;
+    margin: 0 auto;
+}
+
+#tour {
+    max-width: 6.4rem;
+    margin: 0 auto;
+}
+
+hgroup {
+    text-align: center;
+}
+
+hgroup h2 {
+    font-size: 0.24rem;
+    padding: 0.05rem 0;
+}
+
+hgroup h3 {
+    font-size: 0.18rem;
+    padding: 0.05rem 0;
+}
+
+.container {
+    max-width: 6.4rem;
+    margin: 0 auto 1.1rem auto;
+    overflow: hidden;
+}
+
+.container figure {
+    width: 45%;
+    float: left;
+    padding: 0 0.08rem 0 0.08rem;
+}
+
+.container figure img {
+    max-width: 100%;
+    display: block;
+    padding: 0.05rem;
+}
+
+.container figcaption {
+    font-size: 0.12rem;
+}
+
+.container figcaption h4 {
+    font-size: 0.14rem;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container figcaption p {
+    font-size: 0.14rem;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container figcaption .info {
+    font-size: 0.16rem;
+    font-weight: normal;
+    margin: 0.2rem 0 0 0;
+    letter-spacing: 0.01rem;
+}
+
+.sat {
+    font-weight: normal;
+    float: right;
+    font-style: normal;
+    margin: 0.06rem;
+    color: #999;
+    font-size: 0.12rem;
+}
+
+.price {
+    color: #f60;
+    font-size: 0.16rem;
+}
+
+#headline {
+    max-width: 6.4rem;
+    margin: 0 auto .2rem auto;
+    padding: .5rem 0 0 0;
+    position: relative;
+    top: .2rem;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../img/bg1.png) no-repeat center;
+    height: 1.25rem;
+}
+
+#headline img {
+    display: block;
+    max-width: 100%;
+}
+
+#headline hgroup {
+    max-width: 6.4rem;
+    margin: .2rem auto;
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    padding: 0 0 0 .25rem;
+    color: #fff;
+}
+
+#headline hgroup h2 {
+    font-size: .16rem;
+    font-weight: normal;
+}
+
+#headline hgroup h3 {
+    font-size: .14rem;
+    font-weight: normal;
+}
+
+.list {
+    max-width: 6.4rem;
+    margin: 0 auto 1.1rem auto;
+    overflow: hidden;
+    padding: .15rem 0.2rem .1rem;
+    color: #666;
+}
+
+.list h2 {
+    font-size: .16rem;
+    border-bottom: 0.01rem dashed #999;
+    padding: 0 0 .15rem 0;
+}
+
+.list figure {
+    width: 99%;
+    padding: 0.2rem 0.08rem 0 0.08rem;
+    float: left;
+    position: relative;
+}
+
+.list figure img {
+    width: 50%;
+    padding: 0.05rem;
+    float: left;
+}
+
+.list figcaption {
+
+    width: 45%;
+    display: block;
+    font-size: 0.12rem;
+    float: right;
+}
+
+.list figcaption h3 {
+    font-size: 0.14rem;
+}
+
+.list figcaption h4 {
+    font-size: 0.12rem;
+    font-weight: normal;
+    line-height: .20rem;
+}
+
+.infos hgroup {
+    text-align: left;
+    padding: 0 0 0 .04rem;
+}
+
+.infos .price {
+    padding: .1rem 0 0 .1rem;
+}
+
+.infos .price strong {
+    color: #f60;
+    font-size: .36rem;
+}
+
+.ticket {
+    font-size: .2rem;
+    color: #666;
+}
+
+.ticket form .type {
+    margin: .2rem 0 .1rem 0;
+    font-size: .16rem;
+}
+
+.ticket form .type span {
+    display: block;
+    font-size: .16rem;
+}
+
+.ticket form .type strong {
+    padding: 0 .1rem 0 .1rem;
+    margin: 0 .1rem 0 .1rem;
+    color: #fff;
+    display: inline-block;
+    height: .3rem;
+    background: #458b00;
+    line-height: .3rem;
+    text-align: center;
+    border-radius: .04rem;
+    font-size: .16rem;
+}
+
+.form input {
+    width: 90%;
+    height: .3rem;
+    border: .01rem solid #ccc;
+    font-size: .16rem margin:0 0 0 .1rem;
+    padding: .05rem;
+    border-radius: .05rem;
+    outline: none;
+}
+
+.form {
+    line-height: 1.2
+}
+
+.form p label {
+    padding: 0 0 0.05rem 0;
+    display: block;
+}
+
+.form p {
+    height: 1rem;
+}
+
+.ticket form .left {
+    width: 95%;
+}
+
+.ticket form .center {
+    width: 95%;
+}
+
+.ticket form .right {
+    width: 95%;
+}
+
+.ticket form .right .center {
+    height: 50%;
+    width: 1rem;
+    margin: 0 auto;
+}
+
+.ticket form .right .submit {
+    height: 0.3rem;
+    width: 0.6rem;
+    text-align: center;
+    line-height: .3rem;
+    background: #f60;
+    border: 0;
+    color: #fff;
+    font-size: .14rem;
+    letter-spacing: .02rem;
+    border-radius: .05rem;
+    margin: 0 auto;
+}
+
+.list_news {
+    color: #666;
+    margin-top: .2rem;
+}
+
+.list_news ul {
+    margin: .1rem 0 .2rem 0;
+    font-size: .14rem;
+}
+
+.list_news ul li {
+    display: inline-block;
+    width: .5rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+}
+
+.list_news ul li:first-child {
+    width: 1.2rem;
+    height: 0.3rem;
+    text-align: left;
+}
+
+.list_news ul li:nth-child(2) a {
+    margin-left: -.2rem;
+    background: #458b00;
+    color: #fff;
+    border-radius: .03rempx;
+}
+
+.list_news ul li a {
+    display: block;
+    padding: 0 .05rem 0 .05rem;
+    color: #666;
+}
+
+.list_news table {
+    border: 0.01rem solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 0.13rem;
+}
+
+.list_news table tr:nth-child(2n) {
+    background: #fafafa;
+}
+
+.list_news table tr:hover {
+    background: #eee;
+}
+
+.list_news table th,
+.list_news table td {
+    border-bottom: 0.01rem solid #ccc;
+    height: 0.5rem;
+}
+
+.list_news table td.price {
+    color: #f60;
+}
+
+.list_news table td .reserve {
+    display: inline-block;
+    height: 0.2rem;
+    width: 0.4rem;
+    text-align: center;
+    line-height: 0.2rem;
+    background: #f60;
+    border-radius: 0.01rem;
+    color: #fff;
+}
+
+.list_news table td .ticket_more {
+    color: #666;
+}
+
+.about p {
+    text-indent: 2em;
+    line-height: 2;
+    margin: .2rem 0;
+}
+
+.about .address {
+    margin: .6rem 0 0 0;
+}
+
+.about .address address {
+    font-style: normal;
+    line-height: 1.5;
+    font-size: .18rem;
+    margin-top: .2rem;
+}
