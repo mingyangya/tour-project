@@ -6,7 +6,7 @@
     
 - 首页效果
 
-![首页](https://haochn.github.io/tour-project/dataImg/index.jpg)
+![首页](./dataImg/index.jpg)
 
 - 旅游资讯效果
 
